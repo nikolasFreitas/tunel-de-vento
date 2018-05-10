@@ -17,6 +17,7 @@
 \usepackage{setspace}
 \usepackage{enumitem}
 \usepackage{float}
+\usepackage{caption}
 % \usepackage{biblatex}
 
 \newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
@@ -106,11 +107,9 @@
 \section{Discussão dos dados}
     Segue as pressões calculadas para cada diâmetro do túnel de vento.
         \begin{center}
-            \begin{figure}[H]
               \includegraphics[width=.6\linewidth]{img/graph.jpg}
-              \caption{Histograma da aceleração da gravidade ($ m/s^2 $)}
-              \label{fig:graph}
-            \end{figure}
+              \captionof{figure}{Histograma da aceleração da gravidade ($ m/s^2 $)}
+              \label{graph}
         \end{center}
 
 \section{Conclusão}
